@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>360views</title>
+    <link rel="stylesheet" href="products.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="pictures/logo.png" alt="" style="width: 150px;">
+            <div class="search">
+                <span style="color: rgba(0, 255, 0, 0.5);" class="searchIcon"><i class="fa-solid fa-magnifying-glass"></i></span>
+                <input type="search" name="" id="#searchbar" class="searchbar">
+            </div>
+        </div>
+
+        <h1>Products</h1>
+            <div class="symbols">
+                <a href="#" class="home-icon"><i class="fa-solid fa-house"></i></a>
+                <a href="#" id="cart"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </div>
+    </header>
+    <section class="products">
+        <div class="main">
+            <img src="pictures/cam1.png" alt="" class="main-image" id="main-image" style="width: 500px; padding: 0;">
+            <div class="desc">
+                <span class="rating" id="rating" style="font-size: 24px; color: goldenrod;">&#x2605</span>
+                <span class="rating" id="rating" style="font-size: 24px; color: goldenrod;">&#x2605</span>
+                <span class="rating" id="rating" style="font-size: 24px; color: goldenrod;">&#x2605</span>
+                <span class="rating" id="rating" style="font-size: 24px; color: goldenrod;">&#x2605</span>
+                <span class="rating" id="rating" style="font-size: 24px; color: goldenrod;">&#9734</span>
+                <h2 id="cam-name">NIKON D300</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, ad eius harum fugit qui dignissimos excepturi incidunt dolor assumenda iure numquam fuga architecto quasi veritatis, omnis, illum ab totam vero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea laudantium similique alias deserunt id eos quis aut, iste, nesciunt sequi inventore. Quod similique odit optio eum in nisi, harum dolores?</p> 
+                <button class="add-to-cart" onclick="cartGlow()">+ Add to Cart <i class="fa-solid fa-cart-shopping" style="font-size: 14px; color: white;"></i></button>
+            </div>
+            
+            
+        </div>
+        <div class="thumbnails">
+            <span class = "button" id="left-arrow" style="font-size: 24px;">&#x25c0</span>
+            <img src="pictures/cam2.png" alt="" class="thumbnail">
+            <img src="pictures/cam3.png" alt="" class="thumbnail">
+            <img src="pictures/cam4.png" alt="" class="thumbnail">
+            <img src="pictures/cam5.png" alt=""  class="thumbnail">
+            <span style="font-size: 24px;" class="button" id="right-arrow">&#x25b6</span>
+        </div>
+     
+    </section>
+
+    <section class="reviews">
+        <h2>Reviews</h2>
+        <div class="review-container">
+            <img src="pictures/dp.png" alt="">
+            <div class="comment">
+                <span class="rating" id="rating" style="font-size: 24px; color: goldenrod;">&#x2605</span>
+                <span class="rating" id="rating" style="font-size: 24px; color: goldenrod;">&#x2605</span>
+                <span class="rating" id="rating" style="font-size: 24px; color: goldenrod;">&#x2605</span>
+                <span class="rating" id="rating" style="font-size: 24px; color: goldenrod;">&#x2605</span>
+                <span class="rating" id="rating" style="font-size: 24px; color: goldenrod;">&#9734</span>
+                <h3>Jane Doe</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, reiciendis officia asperiores fugiat adipisci earum consequuntur maxime rem ipsum assumenda delectus provident vero, ipsa officiis quis doloremque accusantium animi et.</p>
+            </div>
+        </div>
+        <div class="review-container">
+            <img src="pictures/dp.png" alt="">
+            <div class="comment">
+                <span class="rating" id="rating" style="font-size: 24px; color: goldenrod;">&#x2605</span>
+                <span class="rating" id="rating" style="font-size: 24px; color: goldenrod;">&#x2605</span>
+                <span class="rating" id="rating" style="font-size: 24px; color: goldenrod;">&#x2605</span>
+                <span class="rating" id="rating" style="font-size: 24px; color: goldenrod;">&#x2605</span>
+                <span class="rating" id="rating" style="font-size: 24px; color: goldenrod;">&#9734</span>
+                <h3>Jane Doe</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, reiciendis officia asperiores fugiat adipisci earum consequuntur maxime rem ipsum assumenda delectus provident vero, ipsa officiis quis doloremque accusantium animi et.</p>
+            </div>
+        </div>
+        <div class="review-container">
+            <img src="pictures/dp.png" alt="">
+            <div class="comment">
+                <span class="rating" id="rating" style="font-size: 24px; color: goldenrod;">&#x2605</span>
+                <span class="rating" id="rating" style="font-size: 24px; color: goldenrod;">&#x2605</span>
+                <span class="rating" id="rating" style="font-size: 24px; color: goldenrod;">&#x2605</span>
+                <span class="rating" id="rating" style="font-size: 24px; color: goldenrod;">&#x2605</span>
+                <span class="rating" id="rating" style="font-size: 24px; color: goldenrod;">&#9734</span>
+                <h3>Jane Doe</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, reiciendis officia asperiores fugiat adipisci earum consequuntur maxime rem ipsum assumenda delectus provident vero, ipsa officiis quis doloremque accusantium animi et.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <h4>GET IN T<img src="pictures/lens.png" class="lens">UCH</h4>
+        
+        <div class="footer-content">
+            <div class="navigation">
+                <h5>Navigation</h5>
+                <a href="#">Home</a> <br>
+                <a href="#">Blog</a> <br>
+                <a href="#">Sign up/Log in</a>
+            </div>
+            <div class="socials">
+                <h5>Socials</h5>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i> Instagram</a> <br>
+                <a href="#"><i class="fa-brands fa-square-twitter"></i> Twitter</a> <br>
+                <a href="#"><i class="fa-brands fa-youtube"></i> YouTube</a> <br>
+                <a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a> <br>
+                <a href="#"><i class="fa-solid fa-at"></i> Email</a>
+            </div>
+        </div>
+
+        <p>&copy 2024 <br> 360views</p>
+    </footer>
+
+    <script>
+    
+        //changes the colour of the cart when the add-to-cart button is clicked
+        function cartGlow() {
+            document.getElementById("cart").style.color = "rgba(0, 255, 0, 0.9)";
+        }
+
+
+        // Select main image and thumbnails
+        const mainImage = document.getElementById('main-image');
+        const thumbnails = document.querySelectorAll('.thumbnail');
+        
+        // Thumbnail click event to replace main image and apply bounce effect
+        thumbnails.forEach(thumbnail => {
+            thumbnail.addEventListener('click', () => {
+                // Update main image source to the clicked thumbnail's source
+                mainImage.src = thumbnail.src;
+
+                // Apply bounce effect by adding and then removing the CSS class
+                mainImage.classList.remove('bounce'); // Remove the bounce class if it's already there to re-trigger animation
+                void mainImage.offsetWidth; // Trigger reflow to restart the animation
+                mainImage.classList.add('bounce');
+            });
+        });
+
+        
+        //to make the left and right arrows display and hide different images from the gallery
+
+        // Select all thumbnails and buttons
+        const prevButton = document.getElementById('left-arrow');
+        const nextButton = document.getElementById('right-arrow');
+
+        // Start index to track the visible thumbnails
+        let visibleStartIndex = 0;
+
+        // Function to update the visible thumbnails
+        function updateVisibleThumbnails() {
+            thumbnails.forEach((thumbnail, index) => {
+                thumbnail.classList.remove('visible');
+            });
+
+            // Display exactly 3 thumbnails at a time
+            for (let i = 0; i < 3; i++) {
+                const index = (visibleStartIndex + i) % thumbnails.length;
+                thumbnails[index].classList.add('visible');
+            }
+        }
+
+        // Event listener for Previous button
+        prevButton.addEventListener('click', () => {
+            visibleStartIndex = (visibleStartIndex - 1 + thumbnails.length) % thumbnails.length;
+            updateVisibleThumbnails();
+        });
+
+        // Event listener for Next button
+        nextButton.addEventListener('click', () => {
+            visibleStartIndex = (visibleStartIndex + 1) % thumbnails.length;
+            updateVisibleThumbnails();
+        });
+
+        // Initialize with the first set of visible thumbnails
+        updateVisibleThumbnails();
+    </script>
+    
+    
+</body>
+</html>
